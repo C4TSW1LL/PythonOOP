@@ -1,6 +1,5 @@
 import math
-from .Figure import Figure
-
+from src.Figure import Figure
 
 class Triangle(Figure):
 

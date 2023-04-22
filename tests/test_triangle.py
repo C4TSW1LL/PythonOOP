@@ -13,13 +13,13 @@ def test_create_incorrect_triangle():
 
 def test_check_area():
     triange = Triangle(12,13,14)
-    assert 72 == triange.area()
+    assert triange.area() == 72
 
 def test_check_perimeter():
     triangle = Triangle(12,13,14)
-    assert 39 == triangle.perimeter()
+    assert triangle.perimeter() == 39
 
 def test_add_area():
     triangle = Triangle(12,13,14)
     rectangle = Rectangle(10, 12)
-    assert Figure.add_area(triangle, rectangle) == 100
+    assert triangle.add_area(rectangle) == 192, "123"
