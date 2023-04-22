@@ -1,4 +1,6 @@
-class Square():
+from src.Figure import Figure
+
+class Square(Figure):
 
     def __init__(self, a):
         self.a = a
